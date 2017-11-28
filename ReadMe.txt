@@ -1,36 +1,17 @@
-鼠标控制
-c 显示/隐藏 状态栏
+2D Text based survival game made with C# and Unity Engine
 
-2D 文字类末日生存游戏
+2 man project
 
-旅行花费 1 食物 和 1 单位 油。
+Game Feature:
 
-所有城市位置随机。名字随机。拥有物品随机。
+1. Random gernerated map, location names and amount of items currently hold.
 
-城市繁荣度受库存影响。
+2. Market price base on available stocks
 
-物品物价受库存影响。
+3. Random Generated events and fights.
 
-玩家可靠买卖直接影响城市繁荣度。
+4. Simple win/lose condition
 
-在城市可以休息 不花费油 花费钱。
+5. Dynamic text generated base on conditions
 
-食物花完 游戏就回结束 返回菜单。
-
-随着活着的天数会获得经验， 可以用来升级。
-
-路上会出现突发事件， 突发事件也可以升级。
-
-突发事件给予独特配件。
-
-升级会获得独特技能。
-
-独特配件系统未完善。
-
-失败/胜利画面未完善。
-
-攻城画面未完善。
-
-难度暂时禁用。
-
-食物和油量 钱 都是 用来 debug 的数量。
+6. Dynamic 2D path finding
